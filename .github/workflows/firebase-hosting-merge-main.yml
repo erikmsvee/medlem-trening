@@ -18,3 +18,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_DESVEE_TRAINING }}'
           channelId: live
           projectId: desvee-training
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
