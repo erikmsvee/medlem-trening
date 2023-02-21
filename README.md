@@ -3,6 +3,10 @@
 Add Vue to the creating: firebase experiments:enable webframeworks
 Emulator: firebase init emulators
 Start Emulator: firebase emulators:start
+Firebase preview/staging: firebase hosting:channel:deploy stage --expires 2d
+Firebase list hosted: firebase hosting:channel:list
+Firebase delete hosted: firebase hosting:channel:delete stage
+
 
 ## Sources ##
 https://egghead.io/blog/build-realtime-and-authenticated-apps-with-firebase-vite
